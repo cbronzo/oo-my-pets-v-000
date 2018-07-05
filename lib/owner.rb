@@ -57,7 +57,7 @@ def sell_pets
     @pets.each do |animal, array|
     array.each {|pet| pet.mood = "nervous"}
   end
-  pets.clear
+  @pets.clear
 
 end
 
