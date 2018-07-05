@@ -63,3 +63,4 @@ def list_pets
   pets[animal] = []
 end
 
+end
