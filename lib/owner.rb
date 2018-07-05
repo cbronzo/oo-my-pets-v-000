@@ -11,7 +11,7 @@ def initialize(name)
   @pets = {fishes: [], cats: [], dogs: []}
 end
 
-def reset_all
+def self.reset_all
   
 
 def say_species
