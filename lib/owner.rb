@@ -54,13 +54,14 @@ def feed_fish
 end
 
 def sell_pets
-end
-
-def list_pets
-  pets.each do |animal, array|
+   pets.each do |animal, array|
     array.each {|pet| pet.mood = "nervous"}
   end
   pets[animal] = []
+
 end
+
+def list_pets
+ end
 
 end
