@@ -20,8 +20,8 @@ def self.reset_all
 end
 
 def self.count
-  @@all.count
-  
+  @@all.size
+end
 
 def say_species
   "I am a #{@species}."
