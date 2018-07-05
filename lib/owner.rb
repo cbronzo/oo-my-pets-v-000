@@ -8,13 +8,8 @@ def initialize(name)
   @@all << self
   @name = name
   @species = "human"
+  @pets = {fishes: [], cats: [], dogs: []}
 end
-
- @name = name
-+    @species = "human"
-+    @@all << self
-+    @pets = {fishes: [], cats: [], dogs: []}
-+  end
 
 
   
