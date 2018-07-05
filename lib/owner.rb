@@ -55,10 +55,10 @@ end
 
 def sell_pets
     @pets.each do |animal, array|
-    array.each {|pet| pet.mood = "nervous"}
+    array.each do |pet| 
+      pet.mood = "nervous"
+    end
   end
-  self.reset_all
-
 end
 
 def list_pets
