@@ -1,11 +1,11 @@
 class Owner
-
+@@all = []
 
 def initialize(name)
-  
+  @@all << self
 
 
-@@all = []
+
   
  def self.all
   @@all
