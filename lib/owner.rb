@@ -45,5 +45,8 @@ def walk_dogs
   pets[:dogs].each {|dog| dog.mood = "happy"}
 end
   
+def play_with_cats
+  pets[:cats].eaceh {|cat| cat.mood = "happy"}
+end
 
 end
