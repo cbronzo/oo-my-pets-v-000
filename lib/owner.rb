@@ -3,7 +3,7 @@ class Owner
 
 def initialize(name)
   @@all << self
-
+end
 
 
   
