@@ -9,6 +9,12 @@ def initialize(name)
   @species = "human"
 end
 
+ @name = name
++    @species = "human"
++    @@all << self
++    @pets = {fishes: [], cats: [], dogs: []}
++  end
+
 
   
  def self.all
