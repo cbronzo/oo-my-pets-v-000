@@ -42,7 +42,7 @@ def buy_dog(name)
 end
 
 def walk_dogs
-  
+  pets[:dogs]
   
 
 end
