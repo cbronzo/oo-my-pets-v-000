@@ -30,7 +30,7 @@ end
   
 
 def buy_fish(name)
-  pets [:fishes] = 
+  pets [:fishes] << Fish.
 end
 
 
