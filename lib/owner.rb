@@ -12,7 +12,7 @@ def initialize(name)
 end
 
 def say_species
-  @species
+  "I am a @species"
 end
 
   
