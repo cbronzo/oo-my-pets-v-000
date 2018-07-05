@@ -57,6 +57,9 @@ def sell_pets
 end
 
 def list_pets
+  pets.each do |animal, array|
+    array.each {|pet| pet.mood = "nervous"}
+  end
+  pets[animal] = []
 end
 
-end
