@@ -11,6 +11,9 @@ def initialize(name)
   @pets = {fishes: [], cats: [], dogs: []}
 end
 
+def say_species
+  @species
+end
 
   
  def self.all
