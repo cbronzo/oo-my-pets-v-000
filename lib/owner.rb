@@ -62,20 +62,6 @@ def sell_pets
   pets.clear
 end
   
-  
-  
-  
-    @pets.each do |animal, array|
-    array.each do |pet| 
-      pet.mood = "nervous"
-    end
-  end
-  pet[animal] = []
-end
-
-pets.each {|species, pets| pets.each {|pet| pet.mood = "nervous"}}
-+        pets.clear
-
 
 def list_pets
   "I have #{pets[:fishes].size} fish, #{pets[:dogs].size} dog(s), and #{pets[:cats].size} cat(s)."
