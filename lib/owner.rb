@@ -53,6 +53,7 @@ def feed_fish
   pets[:fishes].each {|fish| fish.mood = "happy"}
 end
 
-def
+def sell_pets
+end
 
 end
