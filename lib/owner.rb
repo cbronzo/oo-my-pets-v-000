@@ -6,6 +6,7 @@ attr_accessor :name
 
 def initialize(name)
   @@all << self
+  @species = "human"
 end
 
 
